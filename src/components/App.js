@@ -9,11 +9,11 @@ import './IconLibrary';
 // **************************** Styles ***************************************
 // Default theme colours
 const theme = {
-  bgPrimary: '#fcfbf5',
-  bgContrast: '#cee5d0',
-  accentPrimary: '#3fab9b',
-  accentContrast: '#d8b384',
-  txtPrimary: '#483539',
+  bgPrimary: '#faede5',
+  bgContrast: '#f3d7c4',
+  accentPrimary: '#de6370',
+  accentContrast: '#ea9ba4',
+  txtPrimary: '#360c10',
 };
 
 const StyledApp = styled.div`
@@ -21,7 +21,7 @@ const StyledApp = styled.div`
   min-height: 100vh;
   font-size: 18px;
   line-height: 24px;
-  font-family: Vollkorn, Bookman, Georgia, 'Times New Roman', serif;
+  font-family: Montserrat, Bookman, Georgia, 'Times New Roman', serif;
   color: ${(props) => (props.theme.txtPrimary)};
 `;
 
