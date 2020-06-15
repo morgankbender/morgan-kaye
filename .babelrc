@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "@babel/env",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "babel-plugin-styled-components",
+    "transform-class-properties",
+    "react-hot-loader/babel"
+  ]
+}
