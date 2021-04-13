@@ -8,9 +8,11 @@ import {
   H2,
   Par,
 } from './shared-styles/Typography';
+import Card from './shared-components/cards/Card';
 
 /**
- * This function compiles all information to be displayed on the landing page
+ * This function compiles all information to be displayed on the landing page.
+ * (This is where all the actual content of the page can be found)
  */
 function Landing() {
   return (
@@ -39,6 +41,11 @@ function Landing() {
           <H2>
             Portfolio
           </H2>
+          {/*<Card*/}
+          {/*  img={}*/}
+          {/*  title={}*/}
+          {/*  desc={}*/}
+          {/*  link={ } />*/}
         </Section>
         <Section divID="resume">
           <H2>
